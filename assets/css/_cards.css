@@ -2,7 +2,7 @@
   .cards {
     @apply w-full py-4 rounded-lg text-left;
     & .card {
-      @apply flex flex-col justify-between items-start max-w-5xl mx-auto px-4 py-4 rounded border border-solid border-primary;
+      @apply flex flex-col justify-between items-start max-w-5xl mx-auto px-4 py-4 rounded border border-solid border-primary-400;
 
       & .cover-image {
         @apply mb-0 w-full rounded-sm;
@@ -42,7 +42,7 @@
 
         &.card--clickable {
           &:hover {
-            @apply border-primary bg-primary-200 text-primary-900;
+            @apply border-primary-400 bg-primary-200 text-primary-900;
             & .card-title {
               @apply text-primary-900;
             }
@@ -60,7 +60,7 @@
   }
   .dark-mode {
     & .vue-content-placeholders-heading__title {
-      @apply bg-primary;
+      @apply bg-primary-400;
     }
     & .vue-content-placeholders-heading__subtitle {
       @apply bg-primary-400;

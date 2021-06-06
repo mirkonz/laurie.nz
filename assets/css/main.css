@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './_vars.css';
+@import './_transitions.css';
+@import './_globals.css';
+
+/* @layer base START */
+@import './_typography.css';
+@import './_forms.css';
+@import './_grid.css';
+@import './_cards.css';
+/* @layer base END */
+
+/* @layer components START */
+@import './_btns.css';
+/* @layer components END */
